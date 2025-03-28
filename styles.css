@@ -38,3 +38,24 @@ body {
 .nav-link:hover {
     color: #ff66ff;
 }
+
+/* HERO SECTION */
+#hero {
+    padding: 100px 20px;
+    background: url('https://via.placeholder.com/1200x600') no-repeat center;
+    background-size: cover;
+}
+
+.btn {
+    display: inline-block;
+    background: #ff00ff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #ff6600;
+}
