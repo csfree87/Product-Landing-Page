@@ -104,3 +104,43 @@ form {
 #submit:hover {
     background: #ff6600;
 }
+
+/* FOOTER */
+footer {
+    padding: 20px;
+    background: black;
+    font-size: 14px;
+}
+
+footer a {
+    color: #ff66ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff6600;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 600px) {
+    #header {
+        flex-direction: column;
+    }
+    
+    #nav-bar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #hero {
+        padding: 50px 20px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    #email {
+        width: 80%;
+    }
+}
