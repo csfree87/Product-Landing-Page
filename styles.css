@@ -26,14 +26,20 @@ body {
 
 #nav-bar {
     display: flex;
-    gap: 20px;
+    justify-content: space-around; /* Or 'space-between' */
+    flex-wrap: wrap; /* Ensures responsiveness */
+    width: 100%; /* Ensures full width */
+    max-width: 100vw; /* Prevents overflow */
 }
 
 .nav-link {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    min-width: fit-content;
+    padding: 10px; /* Adjust padding to avoid cutting */
 }
+
 
 .nav-link:hover {
     color: #ff66ff;
@@ -41,8 +47,8 @@ body {
 
 /* HERO SECTION */
 #hero {
-    padding: 100px 20px;
-    background: url('https://via.placeholder.com/1200x600') no-repeat center;
+    padding: 50px 20px;
+    background: url('https://images.pexels.com/photos/1154723/pexels-photo-1154723.jpeg?auto=compress&cs=tinysrgb&w=1600') no-repeat center;
     background-size: cover;
 }
 
